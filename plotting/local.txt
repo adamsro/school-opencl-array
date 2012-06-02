@@ -1,7 +1,7 @@
 set term epslatex size 6.8,3.5
 set output "local.eps"
 set xlabel "Local Size"
-#set ylabel "GFLOPS/sec" #offset -5.0, 0.0
+set ylabel "GFLOPS/sec" #offset -5.0, 0.0
 set style data lp
 set key outside top 
 

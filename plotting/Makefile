@@ -1,7 +1,7 @@
-all: first.o #pdf 
+all: pdf #first.o #pdf 
 
-first.o:	first.cpp cl.h
-		g++ -g -Wall -ggdb -o first first.cpp -fopenmp -framework OpenCL
+#first.o:	first.cpp cl.h
+		#g++ -g -Wall -ggdb -o first first.cpp -fopenmp -framework OpenCL
 
 clean:
 	rm -rf *o 

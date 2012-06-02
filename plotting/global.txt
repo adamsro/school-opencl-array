@@ -21,5 +21,5 @@ plot 'g-1.out' title '1' lc rgb '#228654' lt 1 lw  1.5, \
 'g-128.out' title '128' lc rgb '#A82E00' lt 1 lw  1.5, \
 'g-256.out' title '256' lc rgb '#9A620E' lt 1 lw  1.5, \
 'g-512.out' title '512' lc rgb '#A86500' lt 1 lw  1.5, \
-'g-1024.out' title '1024' lc rgb '#538622' lt 1 lw  1.5
-
+'g-1024.out' title '1024' lc rgb '#538622' lt 1 lw  1.5, \
+'simd.out' title 'SIMD'lc rgb '#000' lt 1 lw  1.5

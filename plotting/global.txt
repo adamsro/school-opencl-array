@@ -1,0 +1,25 @@
+set term epslatex size 6.8,3.5
+set output "global.eps"
+set xlabel "Global Size"
+#set ylabel "GFLOPS/sec" #offset -5.0, 0.0
+set style data lp
+set key outside top 
+
+#set log x
+#set terminal latex enhanced color
+#set output "plot.tex"
+#set nokey
+#set yrange [80:150]
+
+'plot g-1.out' title '1' lc rgb '#228654' lt 1 lw  1.5, \
+'g-2.out' title '2' lc rgb '#00A855' lt 1 lw  1.5, \
+'g-4.out' title '4' lc rgb '#228686' lt 1 lw  1.5, \
+'g-8.out' title '8' lc rgb '#00A8A8' lt 1 lw  1.5, \
+'g-16.out' title '16' lc rgb '#225486' lt 1 lw  1.5, \
+'g-32.out' title '32' lc rgb '#0055A8' lt 1 lw  1.5, \
+'g-64.out' title '64' lc rgb '#9A350E' lt 1 lw  1.5, \
+'g-128.out' title '128' lc rgb '#A82E00' lt 1 lw  1.5, \
+'g-256.out' title '256' lc rgb '#9A620E' lt 1 lw  1.5, \
+'g-512.out' title '512' lc rgb '#A86500' lt 1 lw  1.5, \
+'g-1024.out' title '1024' lc rgb '#538622' lt 1 lw  1.5
+

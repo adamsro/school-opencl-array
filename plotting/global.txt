@@ -9,7 +9,7 @@ set key outside top
 #set terminal latex enhanced color
 #set output "plot.tex"
 #set nokey
-#set yrange [80:150]
+set yrange [-5:500]
 
 plot 'g-1.out' title '1' lc rgb '#228654' lt 1 lw  1.5, \
 'g-2.out' title '2' lc rgb '#00A855' lt 1 lw  1.5, \

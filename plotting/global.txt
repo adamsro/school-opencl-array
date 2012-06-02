@@ -11,7 +11,7 @@ set key outside top
 #set nokey
 #set yrange [80:150]
 
-'plot g-1.out' title '1' lc rgb '#228654' lt 1 lw  1.5, \
+plot 'g-1.out' title '1' lc rgb '#228654' lt 1 lw  1.5, \
 'g-2.out' title '2' lc rgb '#00A855' lt 1 lw  1.5, \
 'g-4.out' title '4' lc rgb '#228686' lt 1 lw  1.5, \
 'g-8.out' title '8' lc rgb '#00A8A8' lt 1 lw  1.5, \
